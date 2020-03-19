@@ -2,6 +2,7 @@ from .database import db
 from .app import app 
 from flask import Flask, render_template, request, redirect 
 from .models import User, Login 
+#this is a comment ?
 
 @app.route('/', methods=['POST','GET'])
 def index():
